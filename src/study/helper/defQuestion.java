@@ -1,13 +1,15 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package study.helper;
 
-/**
- *
- * @author leem2962
- */
+
 public class defQuestion extends Question{
+    
+       public defQuestion(String a, String q){
+           super(a,q);  //calls on the super classes contructor to make a new question onject
+       } 
+       public void printQuestion(){
+           super.printQuestion(); //calls on the super class to utilize its printQuestion method
+       }
+      
     
 }
