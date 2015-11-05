@@ -1,13 +1,17 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package study.helper;
 
-/**
- *
- * @author leem2962
- */
 public class Question {
+    String question;
+    String answer;
+    
+    public Question (String q, String a){
+        this.question=q;
+        this.answer=a;
+    }
+    
+    public void printQuestion(){
+        System.out.println(this.question);
+    }
     
 }
